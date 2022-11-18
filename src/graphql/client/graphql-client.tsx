@@ -5,7 +5,7 @@ type Options = { query: string, variables?: any };
 export const client = async (options: Options) => {
     let response = await axios(
         {
-            url: "http://localhost:3000/api/graphql",
+            url: "/api/graphql",
             method: 'post',
             data: {
                 query: options.query,
