@@ -38,7 +38,7 @@ export default function Home() {
   }
 
   return (
-    <div className="h-screen flex flex-col items-center">
+    <div className="h-screen flex flex-col items-center bg-black">
       <Head />
       <header className="p-4">
         <Image priority={true} src="/chuck_norris.png" alt="Chuck Norris" width="150" height="150" />
